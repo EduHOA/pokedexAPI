@@ -1,0 +1,19 @@
+
+
+.fontPokemon{
+    font-family: Pokemon Solid, sans-serif;
+    font-size: 36px;
+}    
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+@include make-row();
+@include make-col-ready();
+@include make-col();
+@include make-col($size, $columns: $grid-columns);
+@include make-col-offset($size, $columns: $grid-columns);
+  
+
